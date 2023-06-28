@@ -85,10 +85,13 @@ cookie_button = tk.Button(window, command=on_cookie_button_click, width=10, heig
 cookie_button.grid(row=1, column=0, padx=0, pady=0)
 
 reset_button = tk.Button(window, text=f"Reset_game", command=reset_cookie_clicker, width=10, height=2)
-reset_button.grid(row=1, column=2, padx=200, pady=0)
+reset_button.grid(row=1, column=2, padx=100, pady=0)
 
 finger_button = tk.Button(window, command=on_finger_button_click, width=20, height=3)
-finger_button.grid(row=2, column=0, padx=5, pady=20)
+finger_button.grid(row=2, column=0, padx=5, pady=5)
+
+granny_button = tk.Button(window, width=20, height=3)
+granny_button.grid(row=3, column=0, padx=5, pady=5)
 
 #Actions
 cookie_count, finger_bonus = read_stats()
