@@ -76,7 +76,7 @@ def write_stats():
 
 # UI
 window = tk.Tk()
-window.geometry("200x300")
+window.geometry("350x300")
 
 cookie_count_label = tk.Label(window, text=f"{read_stats()[0]} cookies")
 cookie_count_label.grid(row=0, column=0)
